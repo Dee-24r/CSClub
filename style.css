@@ -1,0 +1,118 @@
+.style{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+.title{
+    color: cadetblue;
+    /* background-color: black; */
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    background-color: pink;
+    justify-content: center;
+}
+
+.navbar h1{
+    font-size: 20px;
+}
+
+
+.dog, .cat, .tortoise{
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.container{
+    padding: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+
+}
+
+.card-body img{
+    width: 200px;
+    height: 200px;
+}
+
+.title, .text{
+    color: white
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 177, 230);
+    justify-content: center !important;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myfooter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.myfooter p{
+    font-size: 20px;
+}
+
+    
+/*
+.myimg{
+    width: 200px;
+    height: 200px;
+
+}
+
+.mybtn{
+    background-color: blueviolet;
+    color: aqua;
+    border-color: azure;
+    border-radius: 10px;
+}
+
+.comparison-section{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.dog, .ct{
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.dog img, .cat img{
+    width: 200px;
+    height: 200px;
+}
+
+.dog h1, .cat h1{
+    font-size: 30px;
+}
+
+.card{
+    background-color: aqua;
+} */
