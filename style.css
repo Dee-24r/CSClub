@@ -1,19 +1,22 @@
 .style{
     margin: 0px;
     padding: 0px;
-    background-color: aliceblue;
+    background-color: white !important;
 }
 
-.title{
-    color: cadetblue;
-    /* background-color: black; */
-    font-size: 19px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white !important;
 }
 
 .navbar{
-    background-color: pink;
+    background-color: #0B0F19;
     justify-content: center;
+}
+
+.navbar-brand, .nav-link{
+    color: #F8FAFC;
 }
 
 .navbar h1{
@@ -21,98 +24,148 @@
 }
 
 
-.dog, .cat, .tortoise{
-    background-color: aliceblue;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-}
-
-.container{
-    padding: 70px;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around !important;
-
-}
-
-.card-body img{
-    width: 200px;
-    height: 200px;
-}
-
-.title, .text{
-    color: white
-}
-
 .hero{
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(204, 177, 230);
+    background: linear-gradient(#0B0F19, rgb(19, 19, 121));
     justify-content: center !important;
 }
 
 .content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.myfooter{
-    padding: 20px;
+.title{
+    color: #F8FAFC;
+    /* background-color: black; */
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 15px;
+    color: #94A3B8;
+}
+
+.section2{
+    background-color: #EAE6DF;
+    min-height: 180vh;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+}
+
+.about{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
 }
 
-
-.myfooter p{
-    font-size: 20px;
+.left-div{
+    width: 50vw;
+    padding: 10vw;
+    padding-left: 19vw;
 }
 
-    
-/*
-.myimg{
-    width: 200px;
-    height: 200px;
+.right-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10vw;
+}
 
+.right-div p, .right-div h4{
+    color: #0B0F19;
 }
 
 .mybtn{
-    background-color: blueviolet;
-    color: aqua;
-    border-color: azure;
-    border-radius: 10px;
+    background-color: #4F46E5;
 }
 
-.comparison-section{
-    justify-content: space-around;
+.mybtn{
+    color: aliceblue;
+}
+
+
+
+.mycontainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+    padding-top: 20vh;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+    gap: 30px;
 }
 
-.dog, .ct{
-    background-color: aqua;
-    border-radius: 10px;
+/* .dog, .cat, .tortoise{ */
+
+.card-body{
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    box-sizing: border-box;
+    height: 370px;
+    width: 150px !important;
+    align-self: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(19, 19, 121), #0B0F19);
 }
 
-.dog img, .cat img{
+.card-body img{
     width: 200px;
     height: 200px;
+    align-self: center;
+    /* justify-self: center; */
+    border-radius: 10px;
 }
 
-.dog h1, .cat h1{
-    font-size: 30px;
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
 }
 
-.card{
-    background-color: aqua;
-} */
+
+.title, .text{
+    color: white
+}
+
+
+.btn-solid{
+    background-color: #38BDF8;
+    color: #0B0F19;
+    width: 150px !important;
+    align-self: center;
+}
+
+
+/* -----------------------FOOOTER----------------------- */
+
+.myfooter{
+    height: 150px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.footerh1{
+    font-size: 20px;
+}
